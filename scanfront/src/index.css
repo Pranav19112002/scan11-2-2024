@@ -1,0 +1,36 @@
+/* .login-container {
+  height: 500px;
+background: url('./components/Images/logcover4.jpeg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+margin-top: auto;
+
+} */
+
+
+body {
+  background-image: url('./components/Images/logcover2.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Adjust height as needed */
+}

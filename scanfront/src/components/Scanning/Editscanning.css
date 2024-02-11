@@ -1,0 +1,66 @@
+/* Addscanning.css */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 95%;
+}
+
+.form-heading {
+  color: rebeccapurple ;
+  margin-bottom: auto;
+}
+
+.form-main-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 1px; 
+}
+
+textarea.form-field {
+  height: 100px;
+  resize: none;
+}
+
+
+.form-button1 {
+  background-color: #663399;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.form-button1-left {
+  text-align: left;
+}
+
+
+.paperstyle {
+  padding: 1px;
+  height: 80vh;
+  width: 900px;
+  margin: 10px auto; 
+  margin-left: 20px;
+}
+
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  width: 80%;
+}
+
+.label-class{
+  color: rebeccapurple;
+  font-family: cursive;
+}
+
